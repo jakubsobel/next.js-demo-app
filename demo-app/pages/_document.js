@@ -9,7 +9,9 @@ class MyDocument extends Document {
     render() {
         return (
             <Html lang="en">
-                <Head />
+                <Head>
+                    <meta name="description" content="This is a next.js Demo App" />
+                </Head>
                 <body>
                     <Main />
                     <NextScript />
